@@ -12,11 +12,11 @@ function Nav() {
             </button>
             <div className="collapse navbar-collapse">
                 <a className="nav-item nav-link" href="/about">About Me</a>
-                <hr></hr>
+                <p>|      | </p>
                 <a className="nav-item nav-link" href="/portfolio">Portfolio</a>
-                <hr></hr>
+                <p>|      | </p>
                 <a className="nav-item nav-link" href="https://github.com/Mark-Bernstein">Github</a>
-                <hr></hr>
+                <p>|      | </p>
                 <a className="nav-item nav-link" href="https://www.linkedin.com/in/mark-bernstein-b287948a/">LinkedIn</a>
             </div>
         </nav>
