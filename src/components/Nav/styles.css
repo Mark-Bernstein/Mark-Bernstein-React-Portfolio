@@ -1,0 +1,31 @@
+.bg-primary {
+    background-color: #417dec !important;
+    color: white;
+}
+
+.navbar-brand {
+    color:rgb(255, 255, 255);
+}
+
+.navbar-toggler-icon {
+    color: white;
+    z-index: -1;
+}
+
+.nav-item {
+    color:white;
+    text-align: center;
+}
+
+a {
+    color:white;
+}
+
+a:hover {
+    color: black;
+}
+
+.profile {
+    width: 65%;
+    margin: 0 auto;
+}

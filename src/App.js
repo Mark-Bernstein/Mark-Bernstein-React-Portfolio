@@ -1,9 +1,9 @@
 import React from 'react';
 import './App.css';
-import Nav from "./components/Nav/index"
-import About from "./pages/About"
-import Portfolio from "./pages/Portfolio"
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom"
+import Nav from "./components/Nav/index";
+import About from "./pages/About";
+import Portfolio from "./pages/Portfolio";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 function App() {
   return (
@@ -11,13 +11,13 @@ function App() {
       <div className="App">
         <Nav />
         <Switch>
-          <Route exact path={["/"]}>
+          <Route exact path={"/"}>
             <About />
           </Route>
-          <Route exact path={["/about"]}>
+          <Route exact path={"/about"}>
             <About />
           </Route>
-          <Route exact path={["/portfolio"]}>
+          <Route exact path={"/portfolio"}>
             <Portfolio />
           </Route>
         </Switch>
